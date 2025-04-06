@@ -12,3 +12,8 @@ class Rashid(Admin):
 
 rashid = Rashid("Рашид", "12345")
 print(rashid.info())
+
+class Skorpion(Admin):
+    def __init__(self, name, password):
+        super().__init__(name, password)
+skorpion = Skorpion("Скорпион", "kdkfafalsd;fasl;fja")
