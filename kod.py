@@ -17,4 +17,3 @@ class Skorpion(Admin):
     def __init__(self, name, password):
         super().__init__(name, password)
 skorpion = Skorpion("Скорпион", "kdkfafalsd;fasl;fja")
-print(skorpio.info())
